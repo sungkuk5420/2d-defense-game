@@ -19,8 +19,9 @@ body {
 .stage {
     height: 420px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
+    position: relative;
 }
 
 .create-monster {
@@ -44,6 +45,10 @@ body {
 }
 .monster-stone {
     display: none;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 80px;
 }
 .monster .monster-stone img {
     width: 100%;
@@ -53,4 +58,18 @@ body {
 }
 .is-hide {
     display: none;
+}
+.tower-computer,
+.tower-user {
+    width: 90px;
+    padding: 0 20px;
+}
+.tower-computer progress,
+.tower-user progress {
+    width: 90px;
+    margin: 0 auto;
+}
+.tower-computer > img,
+.tower-user > img {
+    width: 100%;
 }
