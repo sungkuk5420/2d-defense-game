@@ -12,6 +12,12 @@ console.log(monsterButtons);
 function genMonster() {
     console.log("genMonster");
     monsterStone.classList.add(SHOW_CLASS);
+    gsap.to(monsterStone, {
+        x: -200,
+        duration: 1.2,
+        opacity: 0,
+        rotate: -15,
+    });
 }
 
 function init() {
