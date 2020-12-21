@@ -9,6 +9,9 @@ console.log("monsterStone");
 console.log(monsterStone);
 console.log("monsterButtons");
 console.log(monsterButtons);
+
+function towerHp(params) {}
+
 function genMonster() {
     console.log("genMonster");
     monsterStone.classList.add(SHOW_CLASS);
