@@ -40,7 +40,7 @@ body {
 .create-monster li img {
     width: 100%;
 }
-.monster {
+.monsters {
     width: 100px;
 }
 .monster-stone {
@@ -50,7 +50,7 @@ body {
     bottom: 0;
     width: 80px;
 }
-.monster .monster-stone img {
+.monsters .monster-stone img {
     width: 100%;
 }
 .is-show {
